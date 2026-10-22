@@ -1,0 +1,13 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": false,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "overrides": [
+    {
+      "files": ["*.yml", "*.yaml", "*.css"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
